@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double a = 10.5, b = 20.2;
+    printf("Max: %.1f", fmax(a, b)); // Output: 20.2
+    return 0;
+}
